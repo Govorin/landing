@@ -1,0 +1,43 @@
+* {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+}
+
+.main {
+  width: 60.2vw;
+  text-align: center;
+}
+
+.slide {
+  background: url(../img/background.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slide h1 {
+  font-family: Raleway;
+  /* 10.8px*70px/100% */
+  font-size: 7.56vh;
+  padding-top: 35vh;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.slide h1 span {
+  color: #14c3dc;
+}
+
+.tagline {
+  font-family: 'Droid Serif';
+  font-size: 2vh;
+  color: #fff;
+}
