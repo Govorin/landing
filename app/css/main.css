@@ -10,8 +10,19 @@
   outline: 0;
 }
 
+#wrapper {
+  width: 1189px;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
 .main {
   width: 60.2vw;
+  height: 100vh;
   text-align: center;
 }
 
@@ -23,21 +34,78 @@
   background-size: cover;
 }
 
+.main {
+  margin: 0 auto;
+}
+
 .slide h1 {
-  font-family: Raleway;
+  font-family: 'Raleway Heavy';
   /* 10.8px*70px/100% */
-  font-size: 7.56vh;
+  font-size: 4.9vh;
   padding-top: 35vh;
-  text-transform: uppercase;
   color: #fff;
+  word-wrap: normal;
+  max-width: 56vw;
 }
 
 .slide h1 span {
   color: #14c3dc;
 }
 
+.cyan_line {
+  width: 100px;
+  height: 2px;
+  background-color: #14c3dc;
+  margin-top: 3vh;
+}
+
 .tagline {
   font-family: 'Droid Serif';
   font-size: 2vh;
   color: #fff;
+  margin-top: 3vh;
+}
+
+.btn {
+  padding: 15px 25px 15px 25px;
+  font-family: 'Raleway Bold';
+  text-transform: uppercase;
+}
+
+.our_work_btn {
+  background-color: #14c5dc;
+  color: #ffffff;
+  margin-top: 3vh;
+}
+
+.our_features_btn {
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 3vh;
+  margin-left: 1vw;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+#contact {
+  background-color: rgb(39, 39, 39);
+  display: inline-block;
+  width: 100%;
+}
+
+#contact img {
+  height: 13px;
+}
+
+.social {}
+
+.header {
+  background-color: rgb(18, 18, 18);
+}
+
+.logo {
+  height: 35px;
+  width: 116px;
 }
